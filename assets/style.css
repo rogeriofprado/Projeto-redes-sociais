@@ -1,0 +1,32 @@
+*   {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body  {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;    
+}
+
+body    {
+    background:  url('./imagens/fundo-madeira.jpg') no-repeat  top center;
+    background-size: cover; /*vai cobrir a tela inteira*/
+    background-attachment: fixed; /*para não haver rolagem*/
+}
+
+main    {
+    position: relative;
+    height: 100vh;       
+}
+
+section#telefone    {
+    position: absolute;
+    top: 50%; /*vai jogar a pontinha sup esqu para o centro da tela*/
+    left: 50%;
+    transform: translate(-50%, -50%); /*vai centralizar o quadrado no centro deslocando a pontinha */
+    background: url('./imagens/frame-iphone.png') no-repeat;
+    height: 627px;
+    width: 511px;    
+}
